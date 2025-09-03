@@ -1,0 +1,6 @@
+# mdk project
+/mdk/*
+!/mdk/*.uvprojx
+
+# ugreen nas sync
+**/@eaDir

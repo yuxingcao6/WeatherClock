@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "name": "WeatherClock",
+            "includePath": [
+                "app",
+                "app/font",
+                "app/image",
+                "app/page",
+                "driver/tim_delay",
+                "driver/rtc",
+                "driver/console",
+                "driver/aht20",
+                "driver/st7789",
+                "driver/esp_at",
+                "firmware/cmsis/core",
+                "firmware/cmsis/device",
+                "firmware/driver/inc",
+                "third_lib/freertos/include",
+                "third_lib/freertos/portable"
+            ],
+            "defines": [
+                "STM32F40_41xxx",
+                "USE_STDPERIPH_DRIVER",
+                "HSE_VALUE=8000000"
+            ],
+            "windowsSdkVersion": "10.0.26100.0",
+            "compilerPath": "C:/Users/yuanx/Documents/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe",
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "windows-gcc-arm",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}

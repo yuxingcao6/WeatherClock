@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.h": "c"
+    },
+    "files.autoGuessEncoding": false,
+    "files.encoding": "gb2312"
+}
